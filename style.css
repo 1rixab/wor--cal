@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+}
+.maincal{
+    /* background: rgb(179, 174, 174); */
+    height: 85vh;
+    width: 58vh;
+    margin-top: 2vh;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+    background: white;
+    width: 51.5vh;
+    height: 12vh;
+    margin: 0 0 2vh 0 ;
+    /* border: 0.5vh solid rgb(94, 90, 90); */
+    border:none;
+    border-radius: 1vh;
+}
+.maincalgrid{
+    display: grid;
+    grid-template-columns: 10vh 10vh 10vh 10vh 10vh;
+    grid-template-rows: 7vh 10vh 10vh 10vh 10vh ;
+    row-gap: 0.5vh;
+    column-gap: 0.5vh;
+}
+.isequalto{
+    width: 51.5vh;
+    height: 9vh;
+    background: lightgreen;
+    margin: 1vh 0 0 0 ;
+    border-radius: 2vh;
+    /* border: 0.5vh solid black; */
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    border-radius: 2vh;
+    /* border: 0.5vh solid black; */
+    border:none;
+    background: rgb(170, 105, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.boxfont{
+    font-size: 4.5vh;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.boxfont2{
+    font-size: 6.5vh;
+    font-family: sans-serif;
+    font-weight: bold;
+}
